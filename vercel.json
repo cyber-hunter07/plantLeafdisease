@@ -5,10 +5,5 @@
     ],
     "routes": [
       { "src": "/(.*)", "dest": "/main.py" }
-    ],
-    "build": {
-    "commands": [
-      "./build.sh"
     ]
-  }
   }
