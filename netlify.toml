@@ -16,7 +16,7 @@
 
 [[functions]]
   # Directory where the serverless functions are located
-  directory = "main.py"
+  directory = "netlify-functions"
 
   # Define the timeout for functions
   timeout = 10
