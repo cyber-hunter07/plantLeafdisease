@@ -16,7 +16,7 @@
 
 [[functions]]
   # Directory where the serverless functions are located
-  directory = "."
+  directory = "main.py"
 
   # Define the timeout for functions
   timeout = 10
