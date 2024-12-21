@@ -46,7 +46,5 @@ pytz==2024.2
 requests==2.32.3
 rich==13.9.4
 six==1.17.0
-tensorboard==2.18.0
-tensorboard-data-server==0.7.2
 tensorflow==2.8.1
 
