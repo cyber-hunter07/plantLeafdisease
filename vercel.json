@@ -12,13 +12,8 @@
         "dest": "main.py"
       }
     ],
-
-    "functions": {
-      "main.py": {
-        "runtime": "python3.9",
-        "memory": 128,
-        "maxDuration": 10
-      }
-    }
+    "functions": [
+       { "runtime": "python3.9.19"}
+    ]
   }
   
