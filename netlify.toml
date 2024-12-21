@@ -1,2 +1,22 @@
 [build]
-  functions = "main.py"
+  # Specify the folder that contains your serverless functions
+  functions = "functions"   # The folder where your Flask function is located
+  publish = "public"        # Optional: Specify where static assets are located
+
+[dev]
+  # For local development, specify the folder where functions reside
+  functions = "functions"   # Folder containing serverless functions
+
+[[plugins]]
+  package = "@netlify/plugin-functions-core"  # Enable serverless functions with this plugin
+
+# Optionally set environment variables for your app
+[env]
+  FLASK_APP = "functions/main.py"
+  FLASK_ENV = "development"  # or 'production', depending on your needs
+
+# Optional: Define custom headers for caching or security (if needed for static files)
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
