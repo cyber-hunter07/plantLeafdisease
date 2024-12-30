@@ -5,5 +5,5 @@ opencv-python==4.10.0.84
 pandas==2.2.3
 pillow==11.0.0
 protobuf==3.20.3
-tensorflow==2.8.0-rc0
+tensorflow==2.16.0
 
